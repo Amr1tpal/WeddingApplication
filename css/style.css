@@ -59,6 +59,26 @@ Buttons Generic
 
 
 /*
+Animation
+*/
+
+#home-cover {
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+    animation-duration: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+    animation-duration: .5s;
+}
+
+
+/*
 Home Section
 */
 
@@ -72,7 +92,6 @@ Home Section
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 #home-content-box {
@@ -96,4 +115,8 @@ Home Section
 
 #home-btn {
     font-family: "OriginalSurfer";
+}
+
+.bg-parallax {
+    background-attachment: fixed;
 }
