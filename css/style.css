@@ -69,6 +69,17 @@ Buttons Generic
     color: #2E5077;
 }
 
+.btn-blue {
+    border-color: #0dc8da;
+    color: #0dc8da;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #0dc8da;
+    color: #fff;
+}
+
 
 /*
 Animation
@@ -191,4 +202,52 @@ Service
 .service-item-desc p {
     margin: 0;
     padding-left: 85px;
+}
+
+
+/*
+About Section
+*/
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
+}
+
+#about-btn {
+    font-family: "OriginalSurfer";
+}
+
+#about-bg-diagonal {
+    background-image: url(../img/bg-about.JPG);
+    width: 60%;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: 100% 5px;
+    background-attachment: fixed;
+    float: right;
+    border-left: 250px solid white;
+    border-top: 700px solid transparent;
 }
